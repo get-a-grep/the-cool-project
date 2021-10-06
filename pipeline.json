@@ -1,9 +1,1 @@
-{
-  "version" : 0.1,
-  "globalEnvironmentVariables" : [
-  ],
-  "tasks" : [
-  ],
-  "stages" : [
-  ]
-}
+{"globalEnvironmentVariables":["bigVar=3"],"tasks":[{"title":"Title1","environmentVariables":["var=1"],"name":"name1","parameters":["-v"]},{"environmentVariables":["var=2"],"title":"Title2","name":"name2","parameters":["-v"]}],"stages":[{"name":"name1:1","parameters":[],"environmentVariables":[],"dependsOn":[],"location":{"x":18,"y":211}},{"name":"name2:1","parameters":[],"environmentVariables":[],"dependsOn":["name1:1"],"location":{"x":309,"y":205}}]}
